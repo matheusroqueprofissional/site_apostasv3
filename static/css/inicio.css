@@ -1,0 +1,222 @@
+:root{
+    --cor-clara:#1a242d;
+    --cor_escura2:#0f1923;
+    --cor_escura:#0f1923;
+    --cor_clara:#333e4e;
+    --white:#fff;
+    --red-pink:#f9305b;
+    --green:#00ba75;
+    --links:#8a90a2;
+}
+p,h1,h2{
+    color: var(--white);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor_escura);
+}
+
+
+/*!header*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 100px;
+    border-bottom: var(--cor_clara) 4px solid;
+}
+
+.header_position_left{
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    height: 100%;
+}
+.header_position_right{
+    align-items: right;
+    justify-content: right;
+}
+
+.menu{
+    cursor: pointer;
+}
+
+.header_logo{
+    width: 100px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.botons_login_sign{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    right: 30px;
+}
+.login_btn,
+.sign_btn{
+    background-color: var(--red-pink);
+}
+
+.sign_btn{
+    background-color: #fff;
+}
+
+
+/*!main*/
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    background-color: #0f1923;
+    padding-bottom: 80px;
+}
+
+.principal{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.button_red{
+    background-color:var(--red-pink);
+    color: var(--white);
+    
+}
+
+.img_dinheiro{
+    position: relative;
+    height: 400px;
+}
+.content_image{
+    position: absolute;
+    z-index: 999;
+}
+
+
+
+
+/*!conteudo*/
+
+.conteudo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.campeonatos{
+    width: 100%;
+    display: flex;
+    align-items: left;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.line01{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.box_game{
+    height: 300px;
+    width: 250px;
+    background-color: #1a242d;
+
+}
+.box_game h1{
+    font-size: 14px;
+    color: var(--white);
+}
+
+.box_game p{
+    color: var(--links);
+}
+
+.time01,.time02{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.image_country{
+    width: 40px;
+}
+.box_game_footer{
+    display: flex;
+}
+.box_inside{
+    background-color: var(--red-pink);
+    padding-right: 30px;
+    border-right: 1px solid var(--cor_escura2)
+
+}
+
+
+
+/*!footer*/
+
+footer{
+background-color: var(--cor-clara);
+display: flex;
+flex-direction: row;
+width: 100%;
+align-items: center;
+justify-content: center;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.firstcolumn{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.secondcolumn{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+}
+.thirdcolumn
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.links{
+
+color:var(--links);
+}
+
+
+
+.redes_sociais{
+    gap: 30px;
+}

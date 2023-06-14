@@ -1,0 +1,84 @@
+:root{
+    --cor-clara:#1a242d;
+    --cor_escura2:#0f1923;
+    --cor_escura:#0f1923;
+    --cor_clara:#333e4e;
+    --white:#fff;
+    --red-pink:#f9305b;
+    --green:#00ba75;
+    --links:#8a90a2;
+}
+
+:root{
+    --cor-clara:#1a242d;
+    --cor_escura2:#0f1923;
+    --cor_escura:#0f1923;
+    --cor_clara:#333e4e;
+    --white:#fff;
+    --red-pink:#f9305b;
+    --green:#00ba75;
+    --links:#8a90a2;
+}
+p,h1,h2{
+    color: var(--white);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor_escura);
+}
+
+
+/*!header*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 100px;
+    border-bottom: var(--cor_clara) 4px solid;
+}
+
+.header_position_left{
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    height: 100%;
+}
+.header_position_right{
+    align-items: right;
+    justify-content: right;
+}
+
+.menu{
+    cursor: pointer;
+}
+
+.header_logo{
+    width: 100px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.botons_login_sign{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    right: 30px;
+}
+.login_btn,
+.sign_btn{
+    background-color: var(--red-pink);
+}
+
+.sign_btn{
+    background-color: #fff;
+}

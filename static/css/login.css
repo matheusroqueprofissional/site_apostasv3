@@ -1,0 +1,33 @@
+
+.modal-portal{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header-modal,.body-modal,.footer-modal{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}
+
+input[type = "text"], input[ type="password"]{
+    background-color: #333e4e;
+    width: 20%;
+    color: var(--white);
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+}
+.body-modal{
+    gap: 30px;
+}
